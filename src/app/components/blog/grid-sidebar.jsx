@@ -365,27 +365,27 @@ function BlogGridSidebarPage() {
               {/* BLOG GRID END */}
               {/* PAGINATION START */}
               <div className="pagination-bx col-lg-12 clearfix ">
-                <ul className="pagination">
+                <ul className="pagination gap-1">
                   <li>
-                    <a role="button">«</a>
+                    <button className="pagination-button">«</button>
                   </li>
                   <li className="active">
-                    <a role="button">1</a>
+                    <button className="pagination-button">1</button>
                   </li>
                   <li>
-                    <a role="button">2</a>
+                    <button className="pagination-button">2</button>
                   </li>
                   <li>
-                    <a role="button">3</a>
+                    <button className="pagination-button">3</button>
                   </li>
                   <li>
-                    <a role="button">4</a>
+                    <button className="pagination-button">4</button>
                   </li>
                   <li>
-                    <a role="button">5</a>
+                    <button className="pagination-button">5</button>
                   </li>
                   <li>
-                    <a role="button">»</a>
+                    <button className="pagination-button">»</button>
                   </li>
                 </ul>
               </div>

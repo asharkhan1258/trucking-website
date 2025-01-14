@@ -367,25 +367,25 @@ function BlogGridSidebarPage() {
               <div className="pagination-bx col-lg-12 clearfix ">
                 <ul className="pagination">
                   <li>
-                    <a href="javascript:void(0);">«</a>
+                    <a role="button">«</a>
                   </li>
                   <li className="active">
-                    <a href="javascript:void(0);">1</a>
+                    <a role="button">1</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0);">2</a>
+                    <a role="button">2</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0);">3</a>
+                    <a role="button">3</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0);">4</a>
+                    <a role="button">4</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0);">5</a>
+                    <a role="button">5</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0);">»</a>
+                    <a role="button">»</a>
                   </li>
                 </ul>
               </div>

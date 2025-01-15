@@ -36,26 +36,37 @@ function SectionHeader1() {
                   <a
                     href="https://www.facebook.com/"
                     className="fa fa-facebook"
-                  />
-                  facebook
+                    aria-label="Facebook"
+                  >
+                    <span className="sr-only">Facebook</span>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/" className="fa fa-twitter" />
-                  twitter
+                  <a
+                    href="https://twitter.com/"
+                    className="fa fa-twitter"
+                    aria-label="Twitter"
+                  >
+                    <span className="sr-only">Twitter</span>
+                  </a>
                 </li>
                 <li>
                   <a
                     href="https://in.linkedin.com/"
                     className="fa fa-linkedin"
-                  />
-                  LinkedIn
+                    aria-label="LinkedIn"
+                  >
+                    <span className="sr-only">LinkedIn</span>
+                  </a>
                 </li>
                 <li>
                   <a
                     href="https://www.instagram.com/"
                     className="fa fa-instagram"
-                  />
-                  instagram
+                    aria-label="Instagram"
+                  >
+                    <span className="sr-only">Instagram</span>
+                  </a>
                 </li>
               </ul>
             </div>

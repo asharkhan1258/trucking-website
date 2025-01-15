@@ -55,7 +55,7 @@ function Gallery1Page() {
           <div className="portfolio-wrap mfp-gallery no-col-gap row">
             {gallery.map((_item, index) => {
               if (index === gallery.length - 2) {
-                return;
+                return null;
               }
               return (
                 <div

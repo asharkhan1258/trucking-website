@@ -1,5 +1,5 @@
 import FastImage from "../../../globals/elements/fastimg";
-import { loadScript, publicUrlFor, route } from "../../../globals/constants";
+import { loadScript, route } from "../../../globals/constants";
 import SectionBlogSidebar from "../../sections/blog/section-blog-sidebar";
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";

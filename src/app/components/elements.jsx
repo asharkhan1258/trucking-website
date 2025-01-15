@@ -1307,6 +1307,7 @@ function ElementsPage() {
                 <div className="banner-map">
                   <div className="google-map" style={{ width: "100%" }}>
                     <iframe
+                      title="Map"
                       height={460}
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5543.044383174594!2d-73.98517634822427!3d40.753964399662806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a938897f87%3A0x77a53418bbd56c17!2s34%20St%20-%20Herald%20Sq!5e0!3m2!1sen!2sin!4v1658249652295!5m2!1sen!2sin"
                     />
@@ -1322,6 +1323,7 @@ function ElementsPage() {
                 <div className="banner-map">
                   <div className="google-map-2" style={{ width: "100%" }}>
                     <iframe
+                      title="Map"
                       height={460}
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5543.044383174594!2d-73.98517634822427!3d40.753964399662806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a938897f87%3A0x77a53418bbd56c17!2s34%20St%20-%20Herald%20Sq!5e0!3m2!1sen!2sin!4v1658249652295!5m2!1sen!2sin"
                     />
@@ -1758,6 +1760,7 @@ function ElementsPage() {
                     <h4>Youtube video</h4>
                   </div>
                   <iframe
+                    title="Map"
                     width={560}
                     height={315}
                     src="https://www.youtube.com/embed/jic28SCOuRo"
@@ -1769,6 +1772,7 @@ function ElementsPage() {
                     <h4 className="text-uppercase">Vimeo video</h4>
                   </div>
                   <iframe
+                    title="Map"
                     src="https://player.vimeo.com/video/153950600"
                     width={640}
                     height={360}

@@ -1,5 +1,5 @@
 import FastImage from "../../../globals/elements/fastimg";
-import { loadScript, publicUrlFor, route } from "../../../globals/constants";
+import { loadScript, route } from "../../../globals/constants";
 import SectionBlogSidebar from "../../sections/blog/section-blog-sidebar";
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
@@ -264,6 +264,7 @@ function BlogListSidebarPage() {
               <div className="blog-post blog-lg date-style-2">
                 <div className="mt-post-media">
                   <iframe
+                    title="Map"
                     width={560}
                     height={315}
                     src="https://www.youtube.com/embed/jic28SCOuRo"
@@ -323,6 +324,7 @@ function BlogListSidebarPage() {
               <div className="blog-post blog-lg date-style-2">
                 <div className="mt-post-media bg-black radius-10">
                   <iframe
+                    title="Map"
                     src="https://player.vimeo.com/video/153950600"
                     width={640}
                     height={360}

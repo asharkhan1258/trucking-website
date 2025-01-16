@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "https://theme7x.com/react/fastway/static/js/main.4e23c5fd.js",
-    "static/js/787.fca743c1.chunk.js": "https://theme7x.com/react/fastway/static/js/787.fca743c1.chunk.js",
+    "main.js": "https://theme7x.com/react/fastway/static/js/main.c860c112.js",
+    "static/js/453.dcd6273b.chunk.js": "https://theme7x.com/react/fastway/static/js/453.dcd6273b.chunk.js",
     "index.html": "https://theme7x.com/react/fastway/index.html",
-    "main.4e23c5fd.js.map": "https://theme7x.com/react/fastway/static/js/main.4e23c5fd.js.map",
-    "787.fca743c1.chunk.js.map": "https://theme7x.com/react/fastway/static/js/787.fca743c1.chunk.js.map"
+    "main.c860c112.js.map": "https://theme7x.com/react/fastway/static/js/main.c860c112.js.map",
+    "453.dcd6273b.chunk.js.map": "https://theme7x.com/react/fastway/static/js/453.dcd6273b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.4e23c5fd.js"
+    "static/js/main.c860c112.js"
   ]
 }

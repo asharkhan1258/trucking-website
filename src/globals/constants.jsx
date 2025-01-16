@@ -51,7 +51,7 @@ export const route = {
 }
 
 export function publicUrlFor(path) {
-    return process.env.PUBLIC_URL + "/assets/" + path;
+    return "/assets/" + path;
 }
 
 export function loadScript(src, fromPublic) {

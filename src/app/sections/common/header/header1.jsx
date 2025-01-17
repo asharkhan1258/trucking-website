@@ -36,37 +36,26 @@ function SectionHeader1() {
                   <a
                     href="https://www.facebook.com/"
                     className="fa fa-facebook"
-                    aria-label="Facebook"
-                  >
-                    <span className="sr-only">Facebook</span>
-                  </a>
+                  />
+                  facebook
                 </li>
                 <li>
-                  <a
-                    href="https://twitter.com/"
-                    className="fa fa-twitter"
-                    aria-label="Twitter"
-                  >
-                    <span className="sr-only">Twitter</span>
-                  </a>
+                  <a href="https://twitter.com/" className="fa fa-twitter" />
+                  twitter
                 </li>
                 <li>
                   <a
                     href="https://in.linkedin.com/"
                     className="fa fa-linkedin"
-                    aria-label="LinkedIn"
-                  >
-                    <span className="sr-only">LinkedIn</span>
-                  </a>
+                  />
+                  LinkedIn
                 </li>
                 <li>
                   <a
                     href="https://www.instagram.com/"
                     className="fa fa-instagram"
-                    aria-label="Instagram"
-                  >
-                    <span className="sr-only">Instagram</span>
-                  </a>
+                  />
+                  instagram
                 </li>
               </ul>
             </div>
@@ -136,10 +125,10 @@ function SectionHeader1() {
               <span className="icon-bar icon-bar-three" />
             </button>
             {/* ETRA Nav */}
-            <div className="extra-nav">
+            {/* <div className="extra-nav">
               <div className="extra-cell">
-                <button
-                  style={{ backgroundColor: "transparent", border: "none" }}
+                <a
+                  href="#"
                   className="mt-cart cart-btn dropdown-toggle"
                   title="Your Cart"
                   id="ID-MSG_dropdown"
@@ -152,7 +141,7 @@ function SectionHeader1() {
                       <span className="shopping-bag wcmenucart-count ">2</span>
                     </span>
                   </span>
-                </button>
+                </a>
                 <div
                   className="dropdown-menu cart-dropdown-item-wraper "
                   aria-labelledby="ID-MSG_dropdown"
@@ -174,9 +163,9 @@ function SectionHeader1() {
                             <span className="nav-cart-item-price">
                               <strong>2</strong> x $9.50
                             </span>
-                            <button className="nav-cart-item-quantity">
+                            <a href="#" className="nav-cart-item-quantity">
                               x
-                            </button>
+                            </a>
                           </div>
                         </div>
                         <div className="nav-cart-item clearfix">
@@ -195,9 +184,9 @@ function SectionHeader1() {
                             <span className="nav-cart-item-price">
                               <strong>1</strong> x $24.50
                             </span>
-                            <button className="nav-cart-item-quantity">
+                            <a href="#" className="nav-cart-item-quantity">
                               x
-                            </button>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -221,11 +210,11 @@ function SectionHeader1() {
                 </div>
               </div>
               <div className="extra-cell">
-                <a href="#search" className="site-search-btn">
-                  <i className="fa fa-search" />
-                </a>
-              </div>
-            </div>
+                  <a href="#search" className="site-search-btn">
+                    <i className="fa fa-search" />
+                  </a>
+                </div>
+            </div> */}
             {/* SITE Search */}
             <div id="search">
               <span className="close" />
@@ -263,278 +252,200 @@ function SectionHeader1() {
             </div>
             {/* MAIN Vav */}
             <div className="header-nav navbar-collapse collapse d-flex justify-content-start">
-              <ul className=" nav navbar-nav d-flex align-items-center gap-2">
+              <ul className=" nav navbar-nav">
                 <li className="active">
-                  <button
-                    style={{
-                      backgroundColor: "transparent",
-                      border: "none",
-                      fontWeight: "500",
-                      fontSize: "16px",
-                    }}
-                  >
+                  <a href="#">
                     Home
-                    <i className="fa fa-chevron-down" />
-                  </button>
-                  <ul className="sub-menu">
-                    <li>
-                      <NavLink to={route.home.HOME1}>Home-1</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.home.HOME2}>Home-2</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.home.HOME3}>Home-3</NavLink>
-                    </li>
-                  </ul>
+                    {/* <i className="fa fa-chevron-down" /> */}
+                  </a>
+                  {/* <ul className="sub-menu">
+                      <li>
+                        <NavLink to={route.home.HOME1}>Home-1</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.home.HOME2}>Home-2</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.home.HOME3}>Home-3</NavLink>
+                      </li>
+                    </ul> */}
                 </li>
                 <li>
-                  <button
-                    style={{
-                      backgroundColor: "transparent",
-                      border: "none",
-                      fontWeight: "500",
-                      fontSize: "16px",
-                    }}
-                  >
-                    Pages
-                    <i className="fa fa-chevron-down" />
-                  </button>
-                  <ul className="sub-menu">
-                    <li>
-                      <NavLink to={route.pages.ABOUT}>About us</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.pages.FAQ}>FAQ</NavLink>
-                    </li>
-                    <li>
-                      <button
-                        style={{
-                          padding: "0px",
-                          backgroundColor: "transparent",
-                          border: "none",
-                        }}
-                      >
-                        <button
-                          style={{
-                            backgroundColor: "transparent",
-                            border: "none",
-                            fontWeight: "600",
-                          }}
-                        >
-                          Our Team
-                        </button>
-                        <div class="fa fa-angle-right submenu-toogle fw-bold"></div>
-                      </button>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink to={route.pages.team.TEAM}>Our Team</NavLink>
-                        </li>
-                        <li>
-                          <NavLink to={route.pages.team.DETAIL}>
-                            Our Team Detail
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <button
-                        style={{
-                          padding: "0px",
-                          backgroundColor: "transparent",
-                          border: "none",
-                        }}
-                      >
-                        <button
-                          style={{
-                            backgroundColor: "transparent",
-                            border: "none",
-                            fontWeight: "600",
-                          }}
-                        >
-                          Contact
-                        </button>
-                        <div class="fa fa-angle-right submenu-toogle fw-bold"></div>
-                      </button>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink to={route.pages.contact.CONTACT1}>
-                            Contact us 1
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink to={route.pages.contact.CONTACT2}>
-                            Contact us 2
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <button
-                        style={{
-                          padding: "0px",
-                          backgroundColor: "transparent",
-                          border: "none",
-                        }}
-                      >
-                        <button
-                          style={{
-                            backgroundColor: "transparent",
-                            border: "none",
-                            fontWeight: "600",
-                          }}
-                        >
-                          Gallery
-                        </button>
-                        <div class="fa fa-angle-right submenu-toogle fw-bold"></div>
-                      </button>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink to={route.pages.gallery.GALLERY1}>
-                            Galley 1
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink to={route.pages.gallery.GALLERY2}>
-                            Galley 2
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <NavLink to={route.pages.ERROR404}>Error 404</NavLink>
-                    </li>
-                    <li>
-                      <button
-                        style={{
-                          padding: "0px",
-                          backgroundColor: "transparent",
-                          border: "none",
-                        }}
-                      >
-                        <button
-                          style={{
-                            backgroundColor: "transparent",
-                            border: "none",
-                            fontWeight: "600",
-                          }}
-                        >
-                          Features
-                        </button>
-                        <div class="fa fa-angle-right submenu-toogle fw-bold"></div>
-                      </button>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink to={route.pages.features.footer.FIXED}>
-                            Fixed Footer
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink to={route.pages.features.footer.LIGHT}>
-                            Light Footer
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink to={route.pages.features.footer.DARK}>
-                            Dark Footer
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                  <a href="#">
+                    Feature
+                    {/* <i className="fa fa-chevron-down" /> */}
+                  </a>
+                  {/* <ul className="sub-menu">
+                      <li>
+                        <NavLink to={route.pages.ABOUT}>About us</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.pages.FAQ}>FAQ</NavLink>
+                      </li>
+                      <li>
+                        <a href="#">Our Team</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <NavLink to={route.pages.team.TEAM}>
+                              Our Team
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink to={route.pages.team.DETAIL}>
+                              Our Team Detail
+                            </NavLink>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Contact</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <NavLink to={route.pages.contact.CONTACT1}>
+                              Contact us 1
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink to={route.pages.contact.CONTACT2}>
+                              Contact us 2
+                            </NavLink>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Galley</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <NavLink to={route.pages.gallery.GALLERY1}>
+                              Galley 1
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink to={route.pages.gallery.GALLERY2}>
+                              Galley 2
+                            </NavLink>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <NavLink to={route.pages.ERROR404}>Error 404</NavLink>
+                      </li>
+                      <li>
+                        <a href="#">Features</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <NavLink to={route.pages.features.footer.FIXED}>
+                              Fixed Footer
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink to={route.pages.features.footer.LIGHT}>
+                              Light Footer
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink to={route.pages.features.footer.DARK}>
+                              Dark Footer
+                            </NavLink>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul> */}
                 </li>
                 <li>
-                  <button
-                    style={{
-                      backgroundColor: "transparent",
-                      border: "none",
-                      fontWeight: "500",
-                      fontSize: "16px",
-                    }}
-                  >
+                  <a href="#">
                     Services
-                    <i className="fa fa-chevron-down" />
-                  </button>
-                  <ul className="sub-menu">
-                    <li>
-                      <NavLink to={route.services.SERVICES}>Services</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.services.DETAIL}>
-                        Services Detail
-                      </NavLink>
-                    </li>
-                  </ul>
+                    {/* <i className="fa fa-chevron-down" /> */}
+                  </a>
+                  {/* <ul className="sub-menu">
+                      <li>
+                        <NavLink to={route.services.SERVICES}>Services</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.services.DETAIL}>
+                          Services Detail
+                        </NavLink>
+                      </li>
+                    </ul> */}
+                </li>
+                {/* <li>
+                    <a href="#">
+                      Blog
+                      <i className="fa fa-chevron-down" />
+                    </a>
+                    <ul className="sub-menu">
+                      <li>
+                        <NavLink to={route.blog.LIST}>Blog-List</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.blog.LIST_SIDEBAR}>
+                          Blog-List-Sidebar
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.blog.GRID}>Blog-Grid</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.blog.GRID_SIDEBAR}>
+                          Blog-Grid-Sidebar
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.blog.POST_SINGLE}>
+                          Blog-Post-single
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </li> */}
+                <li>
+                  <a href="#">
+                    About us
+                    {/* <i className="fa fa-chevron-down" /> */}
+                  </a>
+                  {/* <ul className="sub-menu">
+                      <li>
+                        <NavLink to={route.shop.PRODUCTS}>Product</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.shop.DETAIL}>Product Detail</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.shop.CART}>Shopping cart</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.shop.WISHLIST}>Wishlist</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.shop.CHECKOUT}>Checkout</NavLink>
+                      </li>
+                    </ul> */}
                 </li>
                 <li>
-                  <button
-                    style={{
-                      backgroundColor: "transparent",
-                      border: "none",
-                      fontWeight: "500",
-                      fontSize: "16px",
-                    }}
-                  >
-                    Blog
-                    <i className="fa fa-chevron-down" />
-                  </button>
-                  <ul className="sub-menu">
-                    <li>
-                      <NavLink to={route.blog.LIST}>Blog-List</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.blog.LIST_SIDEBAR}>
-                        Blog-List-Sidebar
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.blog.GRID}>Blog-Grid</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.blog.GRID_SIDEBAR}>
-                        Blog-Grid-Sidebar
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.blog.POST_SINGLE}>
-                        Blog-Post-single
-                      </NavLink>
-                    </li>
-                  </ul>
+                  <a href="#">
+                     Contact Us
+                    {/* <i className="fa fa-chevron-down" /> */}
+                  </a>
+                  {/* <ul className="sub-menu">
+                      <li>
+                        <NavLink to={route.shop.PRODUCTS}>Product</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.shop.DETAIL}>Product Detail</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.shop.CART}>Shopping cart</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.shop.WISHLIST}>Wishlist</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to={route.shop.CHECKOUT}>Checkout</NavLink>
+                      </li>
+                    </ul> */}
                 </li>
-                <li>
-                  <button
-                    style={{
-                      backgroundColor: "transparent",
-                      border: "none",
-                      fontWeight: "500",
-                      fontSize: "16px",
-                    }}
-                  >
-                    Shop
-                    <i className="fa fa-chevron-down" />
-                  </button>
-                  <ul className="sub-menu">
-                    <li>
-                      <NavLink to={route.shop.PRODUCTS}>Product</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.shop.DETAIL}>Product Detail</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.shop.CART}>Shopping cart</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.shop.WISHLIST}>Wishlist</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.shop.CHECKOUT}>Checkout</NavLink>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <NavLink to={route.ELEMENTS}>Elements</NavLink>
-                </li>
+                {/* <li>
+                    <NavLink to={route.ELEMENTS}>Elements</NavLink>
+                  </li> */}
               </ul>
             </div>
           </div>

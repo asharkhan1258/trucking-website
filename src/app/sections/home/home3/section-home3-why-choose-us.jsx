@@ -19,14 +19,14 @@ function SectionHome3WhyChooseUs() {
                             <div className="mt-box">
                                 <div className="mt-info bg-white text-left p-a20 m-b30">
                                     <h4>Fast Worldwide delivery</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet odio id lectus tristique luctus. Morbi id sodales orcit.</p>
+                                    <p>Providing fast, reliable worldwide delivery solutions to ensure timely shipments and customer satisfaction.</p>
                                     <NavLink to={route.pages.ABOUT} className="site-button-link site-text-primary font-weight-600">Read More</NavLink>
                                 </div>
                             </div>
                             <div className="mt-box m-b30">
                                 <div className="mt-info bg-white text-left p-a20">
                                     <h4>Safety &amp; Compliance</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet odio id lectus tristique luctus. Morbi id sodales orcit.</p>
+                                    <p>Ensuring safety and compliance with industry standards for secure and reliable operations.</p>
                                     <NavLink to={route.pages.ABOUT} className="site-button-link site-text-primary font-weight-600">Read More</NavLink>
                                 </div>
                             </div>

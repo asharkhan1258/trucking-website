@@ -1,6 +1,6 @@
 import SectionHome1Plans from "../../sections/home/home1/section-home1-plans";
 import SectionHome1Team from "../../sections/home/home1/section-home1-team";
-import SectionHome2Video from "../../sections/home/home2/section-home2-video";
+// import SectionHome2Video from "../../sections/home/home2/section-home2-video";
 import SectionHome3WhatWeDo from "../../sections/home/home3/section-home3-what-we-do";
 import SectionHome3WhyChooseUs from "../../sections/home/home3/section-home3-why-choose-us";
 import { publicUrlFor } from "../../../globals/constants";
@@ -90,8 +90,7 @@ function AboutUsPage() {
                       Cargo Transportation
                     </h4>
                     <p className="text-white">
-                      Vitae adipiscing turpis. Aenean ligula nibh, molestie id
-                      viverra.
+                    Reliable cargo transportation for safe, timely, and efficient deliveries.
                     </p>
                   </div>
                 </div>
@@ -108,8 +107,7 @@ function AboutUsPage() {
                       Ground Shipping
                     </h4>
                     <p className="text-white">
-                      Vitae adipiscing turpis. Aenean ligula nibh, molestie id
-                      viverra.
+                    Efficient ground shipping solutions for timely and secure deliveries.
                     </p>
                   </div>
                 </div>
@@ -126,8 +124,7 @@ function AboutUsPage() {
                       Air Freight
                     </h4>
                     <p className="text-white">
-                      Vitae adipiscing turpis. Aenean ligula nibh, molestie id
-                      viverra.
+                    Fast and reliable air freight services for global deliveries.
                     </p>
                   </div>
                 </div>
@@ -144,8 +141,7 @@ function AboutUsPage() {
                       Ocean Freight
                     </h4>
                     <p className="text-white">
-                      Vitae adipiscing turpis. Aenean ligula nibh, molestie id
-                      viverra.
+                    Cost-effective ocean freight solutions for reliable global shipping.
                     </p>
                   </div>
                 </div>
@@ -162,8 +158,7 @@ function AboutUsPage() {
                       Packaging &amp; Storage
                     </h4>
                     <p className="text-white">
-                      Vitae adipiscing turpis. Aenean ligula nibh, molestie id
-                      viverra.
+                    Secure packaging and storage solutions for safe and efficient handling.
                     </p>
                   </div>
                 </div>
@@ -180,8 +175,7 @@ function AboutUsPage() {
                       Road Freight
                     </h4>
                     <p className="text-white">
-                      Vitae adipiscing turpis. Aenean ligula nibh, molestie id
-                      viverra.
+                    Efficient road freight services ensuring timely and secure deliveries.
                     </p>
                   </div>
                 </div>
@@ -194,7 +188,7 @@ function AboutUsPage() {
       <SectionHome1Team />
 
       {/*Video Section */}
-      <SectionHome2Video />
+      {/* <SectionHome2Video /> */}
 
       {/* OUR PLANS  */}
       <SectionHome1Plans />

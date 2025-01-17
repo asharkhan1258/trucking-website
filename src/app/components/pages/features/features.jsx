@@ -131,7 +131,7 @@ function FeaturesPage() {
                         <div className="col-lg-6 col-md-12">
                             <div className="mt-box m-b30">
                                 <div className="mt-thum-bx mt-img-effect  overflow-hide">
-                                    <FastImage src="images/gallery/pic4.jpg" alt="" />
+                                    <FastImage src="images/our-work/download.jpeg" alt="" />
                                 </div>
                             </div>
                         </div>

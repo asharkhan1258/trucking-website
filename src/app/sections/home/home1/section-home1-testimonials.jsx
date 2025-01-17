@@ -18,13 +18,13 @@ function SectionHome1Testimonials() {
                         <div className="item">
                             <div className="testimonial-2  clearfix bg-white">
                                 <div className="testimonial-detail">
-                                    <div className="testimonial-pic shadow"><FastImage src="images/testimonials/pic1.jpg" width={100} height={100} alt="" /></div>
+                                    <div className="testimonial-pic shadow"><FastImage src="images/testimonials/customerpicforwoman - Copy.jpeg" width={100} height={100} alt="" /></div>
                                 </div>
                                 <div className="testimonial-text">
-                                    <strong className="testimonial-name">Collis Ta'eed </strong>
+                                    <strong className="testimonial-name"> Emily Johnson </strong>
                                     <span className="testimonial-position">Manager</span>
                                     <span className="fa fa-quote-left" />
-                                    <p> Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry.</p>
+                                    <p>"The service was exceptional! Timely deliveries and excellent communication throughout the entire process. Highly recommend for reliable trucking solutions!"</p>
                                 </div>
                             </div>
                         </div>
@@ -34,10 +34,10 @@ function SectionHome1Testimonials() {
                                     <div className="testimonial-pic shadow"><FastImage src="images/testimonials/pic2.jpg" width={100} height={100} alt="" /></div>
                                 </div>
                                 <div className="testimonial-text">
-                                    <strong className="testimonial-name">John Doe</strong>
+                                    <strong className="testimonial-name"> David Smith</strong>
                                     <span className="testimonial-position">Manager</span>
                                     <span className="fa fa-quote-left" />
-                                    <p> Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry.</p>
+                                    <p>"A trustworthy and efficient team. My shipments arrived on time without any issues. Great experience overall!"</p>
                                 </div>
                             </div>
                         </div>
@@ -47,10 +47,10 @@ function SectionHome1Testimonials() {
                                     <div className="testimonial-pic shadow"><FastImage src="images/testimonials/pic3.jpg" width={100} height={100} alt="" /></div>
                                 </div>
                                 <div className="testimonial-text">
-                                    <strong className="testimonial-name">Mary Jane </strong>
+                                    <strong className="testimonial-name">James Williams</strong>
                                     <span className="testimonial-position">Manager</span>
                                     <span className="fa fa-quote-left" />
-                                    <p> Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry.</p>
+                                    <p>"Excellent customer service and quick response times. They really know how to handle freight logistics professionally. Will definitely continue using their services."</p>
                                 </div>
                             </div>
                         </div>

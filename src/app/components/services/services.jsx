@@ -67,7 +67,7 @@ function ServicesPage() {
                                     return <div key={index} className="col-lg-4 col-md-6 m-b30">
                                         <div className="mt-box bg-white bdr-1 bdr-solid bdr-gray-light mt-service-1">
                                             <div className="mt-thum-bx mt-img-overlay3 mt-img-effect">
-                                                <FastImage src={_item.image} alt="" />
+                                                <FastImage src={_item.image} alt=""/>
                                                 <div className="overlay-bx">
                                                     <div className="overlay-icon">
                                                         <NavLink to={route.services.DETAIL}>

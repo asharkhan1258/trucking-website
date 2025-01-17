@@ -35,7 +35,7 @@ function FeaturesPage() {
                                     </div>
                                     <div className="icon-content">
                                         <h4 className="mt-tilte  m-b5">Customer Satisfication Tools</h4>
-                                        <p>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra.</p>
+                                        <p>Advanced tools designed to enhance customer satisfaction and loyalty.                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ function FeaturesPage() {
                                     </div>
                                     <div className="icon-content">
                                         <h4 className="mt-tilte  m-b5">Management &amp; Reporting</h4>
-                                        <p>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra.</p>
+                                        <p>Efficient management and reporting solutions for data-driven decision-making.</p>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ function FeaturesPage() {
                                     </div>
                                     <div className="icon-content">
                                         <h4 className="mt-tilte  m-b5">Freight Payment Options</h4>
-                                        <p>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra.</p>
+                                        <p>Flexible freight payment options tailored to meet your needs.</p>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ function FeaturesPage() {
                                     </div>
                                     <div className="icon-content">
                                         <h4 className="mt-tilte  m-b5">Compliance Solutions</h4>
-                                        <p>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra.</p>
+                                        <p>Comprehensive compliance solutions ensuring seamless adherence to regulations.</p>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ function FeaturesPage() {
                                     </div>
                                     <div className="icon-content">
                                         <h4 className="mt-tilte  m-b5">Timely Delivery</h4>
-                                        <p>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra.</p>
+                                        <p>Ensuring timely delivery with efficient and reliable logistics solutions.</p>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ function FeaturesPage() {
                                     </div>
                                     <div className="icon-content">
                                         <h4 className="mt-tilte  m-b5">24 / 7 Service</h4>
-                                        <p>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra.</p>
+                                        <p>Round-the-clock service, ensuring support and solutions anytime you need.</p>
                                     </div>
                                 </div>
                             </div>
@@ -105,8 +105,8 @@ function FeaturesPage() {
                         <div className="col-lg-6 col-md-12 m-b30">
                             <div className="mt-box">
                                 <span className="site-text-primary display-block title-second text-uppercase font-20 font-weight-600 display-block m-b15">Industry Sectors Coverage</span>
-                                <h2>Logistics through innovation, dedication, and technology.</h2>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book and delivered packages</p>
+                                <h2>Dedicated Trucking Services with Advanced Technology</h2>
+                                <p>Providing reliable trucking services powered by advanced technology, ensuring efficient route management, real-time tracking, and timely deliveries to meet all your logistics needs with precision.</p>
                                 <div className="row">
                                     <div className="col-md-6 col-sm-6">
                                         <div className="m-b30 text-black mt-icon-box-wraper center bg-white p-a20">

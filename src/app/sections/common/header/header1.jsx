@@ -252,196 +252,26 @@ function SectionHeader1() {
             </div>
             {/* MAIN Vav */}
             <div className="header-nav navbar-collapse collapse d-flex justify-content-start">
-              <ul className=" nav navbar-nav">
-                <li className="active">
-                  <a href="#">
-                    Home
-                    {/* <i className="fa fa-chevron-down" /> */}
-                  </a>
-                  {/* <ul className="sub-menu">
-                      <li>
-                        <NavLink to={route.home.HOME1}>Home-1</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.home.HOME2}>Home-2</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.home.HOME3}>Home-3</NavLink>
-                      </li>
-                    </ul> */}
+              <ul className=" nav navbar-nav align-items-center ">
+                <li className="">
+                  <NavLink to={route.INITIAL} style={{color: "black" , fontWeight: "bold" }}>Home</NavLink>
                 </li>
                 <li>
-                  <a href="#">
-                    Feature
-                    {/* <i className="fa fa-chevron-down" /> */}
-                  </a>
-                  {/* <ul className="sub-menu">
-                      <li>
-                        <NavLink to={route.pages.ABOUT}>About us</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.pages.FAQ}>FAQ</NavLink>
-                      </li>
-                      <li>
-                        <a href="#">Our Team</a>
-                        <ul className="sub-menu">
-                          <li>
-                            <NavLink to={route.pages.team.TEAM}>
-                              Our Team
-                            </NavLink>
-                          </li>
-                          <li>
-                            <NavLink to={route.pages.team.DETAIL}>
-                              Our Team Detail
-                            </NavLink>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">Contact</a>
-                        <ul className="sub-menu">
-                          <li>
-                            <NavLink to={route.pages.contact.CONTACT1}>
-                              Contact us 1
-                            </NavLink>
-                          </li>
-                          <li>
-                            <NavLink to={route.pages.contact.CONTACT2}>
-                              Contact us 2
-                            </NavLink>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">Galley</a>
-                        <ul className="sub-menu">
-                          <li>
-                            <NavLink to={route.pages.gallery.GALLERY1}>
-                              Galley 1
-                            </NavLink>
-                          </li>
-                          <li>
-                            <NavLink to={route.pages.gallery.GALLERY2}>
-                              Galley 2
-                            </NavLink>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <NavLink to={route.pages.ERROR404}>Error 404</NavLink>
-                      </li>
-                      <li>
-                        <a href="#">Features</a>
-                        <ul className="sub-menu">
-                          <li>
-                            <NavLink to={route.pages.features.footer.FIXED}>
-                              Fixed Footer
-                            </NavLink>
-                          </li>
-                          <li>
-                            <NavLink to={route.pages.features.footer.LIGHT}>
-                              Light Footer
-                            </NavLink>
-                          </li>
-                          <li>
-                            <NavLink to={route.pages.features.footer.DARK}>
-                              Dark Footer
-                            </NavLink>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul> */}
+                  <NavLink to={route.pages.features.footer.LIGHT} style={{color: "black" , fontWeight: "bold" }}>Feature</NavLink>
                 </li>
                 <li>
-                  <a href="#">
-                    Services
-                    {/* <i className="fa fa-chevron-down" /> */}
-                  </a>
-                  {/* <ul className="sub-menu">
-                      <li>
-                        <NavLink to={route.services.SERVICES}>Services</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.services.DETAIL}>
-                          Services Detail
-                        </NavLink>
-                      </li>
-                    </ul> */}
+                  <NavLink to={route.services.SERVICES} style={{color: "black" , fontWeight: "bold" }}>Services</NavLink>
                 </li>
-                {/* <li>
-                    <a href="#">
-                      Blog
-                      <i className="fa fa-chevron-down" />
-                    </a>
-                    <ul className="sub-menu">
-                      <li>
-                        <NavLink to={route.blog.LIST}>Blog-List</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.blog.LIST_SIDEBAR}>
-                          Blog-List-Sidebar
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.blog.GRID}>Blog-Grid</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.blog.GRID_SIDEBAR}>
-                          Blog-Grid-Sidebar
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.blog.POST_SINGLE}>
-                          Blog-Post-single
-                        </NavLink>
-                      </li>
-                    </ul>
-                  </li> */}
+              
                 <li>
-                  <a href="#">
-                    About us
-                    {/* <i className="fa fa-chevron-down" /> */}
-                  </a>
-                  {/* <ul className="sub-menu">
-                      <li>
-                        <NavLink to={route.shop.PRODUCTS}>Product</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.shop.DETAIL}>Product Detail</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.shop.CART}>Shopping cart</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.shop.WISHLIST}>Wishlist</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.shop.CHECKOUT}>Checkout</NavLink>
-                      </li>
-                    </ul> */}
+                  <NavLink to={route.pages.ABOUT} style={{color: "black" , fontWeight: "bold" }}>About us</NavLink>
                 </li>
                 <li>
-                  <a href="#">
-                     Contact Us
-                    {/* <i className="fa fa-chevron-down" /> */}
-                  </a>
-                  {/* <ul className="sub-menu">
-                      <li>
-                        <NavLink to={route.shop.PRODUCTS}>Product</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.shop.DETAIL}>Product Detail</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.shop.CART}>Shopping cart</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.shop.WISHLIST}>Wishlist</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={route.shop.CHECKOUT}>Checkout</NavLink>
-                      </li>
-                    </ul> */}
+                 
+                  <li>
+                      <NavLink to={route.pages.contact.CONTACT1} style={{color: "black" , fontWeight: "bold" }}>Contact Us</NavLink>
+                  </li>
+                  
                 </li>
                 {/* <li>
                     <NavLink to={route.ELEMENTS}>Elements</NavLink>

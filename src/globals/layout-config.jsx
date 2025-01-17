@@ -24,9 +24,9 @@ export function setHeader(currentpath) {
     ) {
         return <SectionHeader1 />
     } else if (currentpath === route.home.HOME3) {
-        return <SectionHeader3 />
+        return <SectionHeader1 />
     } else {
-        return <SectionHeader2 />
+        return <SectionHeader1 />
     }
 }
 

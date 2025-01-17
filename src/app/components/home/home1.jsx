@@ -54,8 +54,7 @@ function Home1Page() {
                         <NavLink to={route.pages.ABOUT}>Road Freight</NavLink>
                       </h4>
                       <p>
-                        Go beyond logistics, make the world go round and
-                        business.
+                      Reliable Road Freight Services Ensuring Timely and Secure Deliveries
                       </p>
                     </div>
                   </div>
@@ -72,8 +71,7 @@ function Home1Page() {
                         <NavLink to={route.pages.ABOUT}>Air Freight</NavLink>
                       </h4>
                       <p>
-                        Go beyond logistics, make the world go round and
-                        business.
+                      Fast and Reliable Air Freight Services for Global Deliveries
                       </p>
                     </div>
                   </div>
@@ -101,8 +99,7 @@ function Home1Page() {
                         <NavLink to={route.pages.ABOUT}>Sea Freight</NavLink>
                       </h4>
                       <p>
-                        Go beyond logistics, make the world go round and
-                        business.
+                      Comprehensive Sea Freight Services Ensuring Smooth Global Shipments
                       </p>
                     </div>
                   </div>
@@ -119,8 +116,7 @@ function Home1Page() {
                         <NavLink to={route.pages.ABOUT}>Warehouse</NavLink>
                       </h4>
                       <p>
-                        Go beyond logistics, make the world go round and
-                        business.
+                      Secure and Efficient Warehousing Solutions for Your Storage Needs 
                       </p>
                     </div>
                   </div>
@@ -159,22 +155,17 @@ function Home1Page() {
                     We give you complete control of your shipment. and help you.
                   </h2>
                   <p className="m-b15">
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, no when an unknown printer took a galley of
-                    type and scrambled.
+                  Take full control of your shipments with our reliable services. We ensure smooth tracking, timely deliveries, and expert support, providing you with complete peace of mind for all your logistics needs.
                   </p>
                   <ul className="list-check-circle primary m-b20">
                     <li>
-                      Simply dummy text of the Lorem Ipsum is printing and type
-                      setting.{" "}
+                    Take control of your shipments with our reliable solutions and support.
                     </li>
                     <li>
-                      And typesetting industry Lorem Ipsum has been. Ipsum has
-                      been the.
+                    Manage your shipments effortlessly with our expert assistance and timely delivery.
                     </li>
                     <li>
-                      Dummy text of the printing and typesetting industry. Text
-                      of the printing.
+                    Enjoy full shipment control with real-time updates and expert support.
                     </li>
                   </ul>
                   <NavLink to="#" className="site-button">
@@ -254,9 +245,7 @@ function Home1Page() {
                     are providing you some special services.
                   </h2>
                   <p className="m-b15">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sit
-                    amet, consectetur adipiscing elit, sed doeius mod tempor sed
-                    do eiusmod
+                  With over 10 years of experience, we have been dedicated to providing you with exceptional and tailored services. Our commitment to quality and customer satisfaction has helped us build lasting relationships.
                   </p>
                 </div>
               </div>
@@ -280,8 +269,7 @@ function Home1Page() {
                                   Less than truckload
                                 </h4>
                                 <p className="m-b20 text-white">
-                                  Imagination… What we can easily see is only a
-                                  small percentage of what is possible
+                                Efficient Less Than Truckload (LTL) services for cost-effective shipping.
                                 </p>
                                 <NavLink
                                   to="#"
@@ -309,8 +297,7 @@ function Home1Page() {
                                   Trucking &amp; Warehousing
                                 </h4>
                                 <p className="m-b20 text-white">
-                                  Imagination… What we can easily see is only a
-                                  small percentage of what is possible
+                                Comprehensive trucking and warehousing solutions for seamless logistics management.
                                 </p>
                                 <NavLink
                                   to="#"
@@ -338,8 +325,7 @@ function Home1Page() {
                                   Sea Delivery
                                 </h4>
                                 <p className="m-b20 text-white">
-                                  Imagination… What we can easily see is only a
-                                  small percentage of what is possible.
+                                Comprehensive trucking and warehousing solutions for seamless logistics management.
                                 </p>
                                 <NavLink
                                   to="#"
@@ -590,8 +576,7 @@ function Home1Page() {
                       Customer Satisfication Tools
                     </h4>
                     <p className="text-white">
-                      Vitae adipiscing turpis. Aenean ligula nibh, molestie id
-                      viverra.
+                    Advanced tools designed to enhance customer satisfaction and loyalty.
                     </p>
                   </div>
                 </div>
@@ -608,8 +593,7 @@ function Home1Page() {
                       Management &amp; Reporting
                     </h4>
                     <p className="text-white">
-                      Vitae adipiscing turpis. Aenean ligula nibh, molestie id
-                      viverra.
+                    Efficient management and reporting solutions for data-driven decision-making.
                     </p>
                   </div>
                 </div>
@@ -626,8 +610,7 @@ function Home1Page() {
                       Freight Payment Options
                     </h4>
                     <p className="text-white">
-                      Vitae adipiscing turpis. Aenean ligula nibh, molestie id
-                      viverra.
+                    Flexible freight payment options tailored to meet your needs.
                     </p>
                   </div>
                 </div>
@@ -644,8 +627,7 @@ function Home1Page() {
                       Compliance Solutions
                     </h4>
                     <p className="text-white">
-                      Vitae adipiscing turpis. Aenean ligula nibh, molestie id
-                      viverra.
+                    Comprehensive compliance solutions ensuring seamless adherence to regulations.
                     </p>
                   </div>
                 </div>
@@ -662,8 +644,7 @@ function Home1Page() {
                       Timely Delivery
                     </h4>
                     <p className="text-white">
-                      Vitae adipiscing turpis. Aenean ligula nibh, molestie id
-                      viverra.
+                    Ensuring timely delivery with efficient and reliable logistics solutions.
                     </p>
                   </div>
                 </div>
@@ -680,8 +661,7 @@ function Home1Page() {
                       24 / 7 Service
                     </h4>
                     <p className="text-white">
-                      Vitae adipiscing turpis. Aenean ligula nibh, molestie id
-                      viverra.
+                    Round-the-clock service, ensuring support and solutions anytime you need.
                     </p>
                   </div>
                 </div>

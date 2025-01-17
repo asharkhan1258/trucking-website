@@ -27,16 +27,16 @@ function SectionHome1Blogs() {
                                         <ul>
                                             <li className="post-date"> <i className="fa fa-calendar site-text-primary" /><strong>09</strong><span>Oct 2023</span> </li>
                                             <li className="post-author"><i className="fa fa-user site-text-primary" /><NavLink to={route.pages.team.DETAIL}>By <span>John</span></NavLink> </li>
-                                            <li className="post-comment"><i className="fa fa-comments site-text-primary" /> <NavLink to={route.blog.POST_SINGLE}>14 Comment</NavLink> </li>
+                                            <li className="post-comment"><i className="fa fa-comments site-text-primary" /> <NavLink >14 Comment</NavLink> </li>
                                         </ul>
                                     </div>
                                     <div className="mt-post-title ">
                                         <h4 className="post-title">A partnership based trust.</h4>
                                     </div>
                                     <div className="mt-post-text">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                        <p>Building lasting success through a partnership founded on trust and collaboration, ensuring mutual growth and reliability in every aspect of our service.</p>
                                     </div>
-                                    <NavLink to={route.blog.POST_SINGLE} className="site-button-link">Read More</NavLink>
+                                    <NavLink  className="site-button-link">Read More</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -51,16 +51,16 @@ function SectionHome1Blogs() {
                                         <ul>
                                             <li className="post-date"> <i className="fa fa-calendar site-text-primary" /><strong>15</strong><span>Oct 2023</span> </li>
                                             <li className="post-author"><i className="fa fa-user site-text-primary" /><NavLink to={route.pages.team.DETAIL}>By <span>John</span></NavLink> </li>
-                                            <li className="post-comment"><i className="fa fa-comments site-text-primary" /> <NavLink to={route.blog.POST_SINGLE}>14 Comment</NavLink> </li>
+                                            <li className="post-comment"><i className="fa fa-comments site-text-primary" /> <NavLink >14 Comment</NavLink> </li>
                                         </ul>
                                     </div>
                                     <div className="mt-post-title ">
                                         <h4 className="post-title">An anchor in a new era.</h4>
                                     </div>
                                     <div className="mt-post-text">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                        <p>Providing stability and guidance as your trusted anchor in a rapidly evolving industry, ensuring smooth transitions into the future.</p>
                                     </div>
-                                    <NavLink to={route.blog.POST_SINGLE} className="site-button-link">Read More</NavLink>
+                                    <NavLink  className="site-button-link">Read More</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -75,16 +75,16 @@ function SectionHome1Blogs() {
                                         <ul>
                                             <li className="post-date"> <i className="fa fa-calendar site-text-primary" /><strong>20</strong><span>Oct 2023</span> </li>
                                             <li className="post-author"><i className="fa fa-user site-text-primary" /><NavLink to={route.pages.team.DETAIL}>By <span>John</span></NavLink> </li>
-                                            <li className="post-comment"><i className="fa fa-comments site-text-primary" /> <NavLink to={route.blog.POST_SINGLE}>14 Comment</NavLink> </li>
+                                            <li className="post-comment"><i className="fa fa-comments site-text-primary" /> <NavLink >14 Comment</NavLink> </li>
                                         </ul>
                                     </div>
                                     <div className="mt-post-title ">
                                         <h4 className="post-title">Fueling your logistic chain.</h4>
                                     </div>
                                     <div className="mt-post-text">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                        <p>Powering your logistics operations with efficient and reliable solutions, ensuring seamless supply chain management.</p>
                                     </div>
-                                    <NavLink to={route.blog.POST_SINGLE} className="site-button-link">Read More</NavLink>
+                                    <NavLink  className="site-button-link">Read More</NavLink>
                                 </div>
                             </div>
                         </div>

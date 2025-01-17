@@ -28,8 +28,8 @@ function SectionHome1Plans() {
                                         </div>
                                         <ul className="pricingtable-features text-black bg-gray">
                                             <li>Per Mile</li>
-                                            <li>6000 kg load</li>
-                                            <li>850 kg / pallet </li>
+                                            <li>1200 kg load</li>
+                                            <li>450 kg / pallet </li>
                                             <li>Warehousing </li>
                                             <li>Free Packaging </li>
                                             <li>24/7 support </li>
@@ -53,8 +53,8 @@ function SectionHome1Plans() {
                                         </div>
                                         <ul className="pricingtable-features text-black bg-gray">
                                             <li>Per Mile</li>
-                                            <li>6000 kg load</li>
-                                            <li>850 kg / pallet </li>
+                                            <li>3000 kg load</li>
+                                            <li>600 kg / pallet </li>
                                             <li>Warehousing </li>
                                             <li>Free Packaging </li>
                                             <li>24/7 support </li>

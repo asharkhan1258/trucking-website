@@ -92,55 +92,55 @@
 			{
 				"icon": "flaticon-pencil",
 				"title": "Fast Worldwide delivery",
-				"desc_short": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nibh euismod."
+				"desc_short": "Providing fast, reliable worldwide delivery solutions to ensure timely shipments and customer satisfaction."
 			},
 			{
 				"icon": "flaticon-solution",
 				"title": "Safety & Compliance",
-				"desc_short": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nibh euismod."
+				"desc_short": "Ensuring safety and compliance with industry standards for secure and reliable operations."
 			},
 			{
 				"icon": "flaticon-people-1",
 				"title": "Faster Performance",
-				"desc_short": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nibh euismod."
+				"desc_short": "Boosting efficiency with faster performance for quicker deliveries and smoother operations."
 			}
 		],
 		"services": [
 			{
-				"image": "images/our-work/pic1.jpg",
+				"image": "images/our-work/images.jpg",
 				"image_preview": "images/our-work/pic1.jpg",
 				"title": "Cargo",
-				"desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+				"desc_short": "Reliable cargo services ensuring secure and timely transportation of your goods."
 			},
 			{
-				"image": "images/our-work/pic2.jpg",
+				"image": "images/our-work/Local-Trucking-Companies-blog.jpg",
 				"image_preview": "images/our-work/pic2.jpg",
 				"title": "Logistic Services",
-				"desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+				"desc_short": "Comprehensive logistic services offering efficient, reliable, and cost-effective solutions worldwide."
 			},
 			{
-				"image": "images/our-work/pic3.jpg",
+				"image": "images/our-work/self-storage-all.jpg",
 				"image_preview": "images/our-work/pic3.jpg",
 				"title": "Storage",
 				"desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text."
 			},
 			{
-				"image": "images/our-work/pic4.jpg",
+				"image": "images/our-work/ground-transport.jpg",
 				"image_preview": "images/our-work/pic4.jpg",
 				"title": "Ground Transport",
-				"desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+				"desc_short": "Reliable ground transport solutions ensuring timely and safe delivery of goods."
 			},
 			{
-				"image": "images/our-work/pic5.jpg",
+				"image": "images/our-work/images (1).jpg",
 				"image_preview": "images/our-work/pic5.jpg",
 				"title": "Trucking Services",
-				"desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+				"desc_short": "Efficient trucking services offering timely, secure, and reliable freight transportation."
 			},
 			{
-				"image": "images/our-work/pic6.jpg",
+				"image": "images/our-work/KSH_MOdern.webp",
 				"image_preview": "images/our-work/pic6.jpg",
 				"title": "Warehousing",
-				"desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+				"desc_short": "Secure and organized warehousing solutions for efficient storage and inventory management."
 			}
 		]
 	},

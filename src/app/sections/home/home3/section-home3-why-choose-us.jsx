@@ -9,7 +9,7 @@ function SectionHome3WhyChooseUs() {
                     <div className="col-lg-6 col-md-12">
                         {/* TITLE START*/}
                         <div className="section-head text-left">
-                            <h2>Why Choose us</h2>
+                            <h2>Why Choose</h2>
                             <div className="mt-separator-outer">
                                 <div className="mt-separator site-bg-primary" />
                             </div>

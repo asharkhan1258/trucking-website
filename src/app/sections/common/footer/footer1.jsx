@@ -26,8 +26,7 @@ function SectionFooter1(props) {
                     </NavLink>
                   </div>
                   <p>
-                    Lorem ipsum this is dummy text dolor sit amet check this
-                    text, consecte tura are dipiscing elit, sed do eiusmod.
+                  Efficient and fast solutions to meet your urgent logistics needs, ensuring swift deliveries and seamless service.
                   </p>
                   <ul>
                     <li>
@@ -74,9 +73,9 @@ function SectionFooter1(props) {
                     <li>
                       <NavLink to={route.shop.PRODUCTS}>Shop</NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                       <NavLink to={route.blog.GRID}>Blog</NavLink>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
